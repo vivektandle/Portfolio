@@ -1,0 +1,385 @@
+/* Hire me styling */
+.Hire a {
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+  font-family: cursive;
+
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 100px;
+}
+
+/* Start of me-info styling */
+
+.me-info img:hover {
+  box-shadow: 0 50px 50px 0 rgba(255, 255, 255, 0.2);
+}
+
+.me-info img {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+  width: 400px;
+  height: 400px;
+  margin-right: 100px;
+
+  margin-left: 50px;
+}
+.me-info {
+  /* background-image: url("C:\Users\vivek\Desktop\PYQP\portfolio\portfolio\src\assets\Img\Circle.png"); */
+
+  display: flex;
+  align-items: center;
+}
+
+.me-content {
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+.me-content h2 {
+  font-family: monaco serif;
+}
+.me-content h1 {
+  font-size: 90px;
+}
+.me-content p {
+  font-family: cursive;
+}
+
+.me-info {
+  background-color: hsl(197, 55%, 15%);
+  /* background-color: black; */
+  /* background-image: url("https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8553.jpg"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+/* start of about me styling */
+/* .about {
+  margin-left: 300px;
+  display: flex;
+  justify-content: center;
+} */
+.about-heading {
+  padding-top: 75px;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+  /* background-color: red; */
+  margin: 50px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 20px; */
+  color: white;
+  /* background-color: ; */
+}
+
+.about-me img {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 400px;
+  height: 400px;
+  margin-right: 400px;
+}
+
+.about-me-content {
+  /* background-color: aliceblue; */
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  height: 400px;
+  /* background-color: red; */
+  /* border-radius:25 ; */
+  width: 450px;
+}
+
+.about-me-content button {
+  background-color: DodgerBlue;
+
+  border: none;
+  color: white;
+  padding: 12px;
+
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+/* start of education styling */
+.education {
+  align-items: center;
+  /* min-height: 80vh; */
+  font-family: cursive;
+  padding-top: 75px;
+}
+
+.edu-content {
+  color: white;
+  font-size: 25px;
+  font-family: cursive;
+  margin-left: 600px;
+  padding-top: 1px;
+
+  padding-left: 15px;
+  /* background-image: url("https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8553.jpg"); */
+  background-color: hsl(175, 15%, 12%);
+  height: 290px;
+  width: 350px;
+}
+.education h1 {
+  padding: 75px;
+  padding-left: 650px;
+  color: white;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* start of projects styling */
+.projects {
+  align-items: center;
+  /* min-height: 80vh; */
+  padding-top: 95px;
+  /* background-color: red; */
+}
+.pro {
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+  /* padding: 20px; */
+}
+.project1 {
+  color: white;
+  /* font-size: 25px; */
+  font-family: cursive;
+
+  padding-top: 10px;
+  background-color: hsl(175, 15%, 12%);
+
+  height: 300px;
+  width: 430px;
+}
+.project2 {
+  color: white;
+  font-size: 25px;
+  font-family: cursive;
+  padding-top: 10px;
+
+  background-color: hsl(175, 15%, 12%);
+
+  height: 300px;
+  width: 430px;
+}
+.project3 {
+  background-color: hsl(175, 15%, 12%);
+  color: white;
+  font-size: 25px;
+  font-family: cursive;
+  padding-top: 10px;
+
+  height: 300px;
+  width: 430px;
+}
+
+.projects h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* font-size: 50px; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* .projects h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+} */
+
+/* start of certificates styling */
+.certificates h1 {
+  /* background-image: url("https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8553.jpg"); */
+  /* margin-left: 600px; */
+  color: white;
+  font-size: px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.certificates {
+  font-size: 35px;
+  margin-left: 50px;
+  color: white;
+
+}
+.certificates p {
+  color: white;
+  font-size: 50px;
+  font-family: cursive;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 20px;
+  justify-content: center;
+  display: flex;
+}
+.cert {
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+}
+
+
+/* start of internships styling */
+.internship {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+}
+.internship h2 {
+  color: white;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.card1 {
+  background-color: hsl(175, 15%, 12%);
+  box-shadow: 0 4px 58px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.1s;
+  width: 400px;
+  padding: 25px;
+  margin: 20px;
+}
+.card1 img {
+  width: 100%;
+}
+.card1:hover {
+  box-shadow: 0 15px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+.card11 {
+  padding: 2px;
+  font-size: 15px;
+  padding-left: 1px;
+}
+.card11 h1 {
+  color: white;
+}
+.cards {
+  padding: 30px;
+  display: flex;
+}
+/* start of skills styling */
+.skills h1 {
+  margin-left: 650px;
+}
+.skills {
+  color: white;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.skill-box {
+  background-color: hsl(175, 15%, 12%);
+  /* background-color:  #474e5d; */
+  border-radius: 18px;
+  padding: 30px;
+  text-align: center;
+  /* Remove margin properties */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: cursive;
+}
+
+.skill-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* starting of footer  */
+.footer {
+  background-color: hsl(175, 15%, 12%);
+  display: flex;
+  justify-content: center;
+  gap: 290px;
+}
+
+/* .links a {
+  font-size: 15px;
+  padding: 5px;
+  display: flex;
+  color: white;
+  font-size: 25px;
+} */
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 100px; */
+  gap: 30px;
+}
+
+.get-in-touch {
+  /* gap: 200px; */
+  font-size: 25px;
+  color: white;
+
+  align-items: center;
+
+  padding: 90px;
+
+  /* background-color: hsl(197, 55%, 15%); */
+}
+
+.back-to-top-button {
+  font-size: 15px;
+
+  margin-left: 450px;
+  font-family: cursive;
+  border-radius: 10px;
+}
+
+.back-to-top-button:hover {
+  color: white;
+  background-color: hsl(175, 15%, 12%);
+  border: solid;
+  border-style: groove;
+}
